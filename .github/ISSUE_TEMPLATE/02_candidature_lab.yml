@@ -1,0 +1,48 @@
+name: "🌟 Candidature au Lab (Passage Communauté -> Lab)"
+description: "Formuler une demande d'intégration au noyau restreint (Le Lab) basée sur l'engagement et les contributions."
+title: "[CANDIDATURE LAB] : Prénom / Pseudo GitHub"
+labels: ["candidature", "lab-member"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Le **Lab** rassemble les membres de la communauté faisant preuve de rigueur, de régularité et d'un engagement constant.
+
+  - type: input
+    id: identity
+    attributes:
+      label: "Nom / Prénom & Identifiant Discord"
+      placeholder: "Ex: Amadou Diallo (@amadou_dev#1234)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: profile_type
+    attributes:
+      label: "Domaine / Spécialité principale"
+      options:
+        - "IA & Data Science"
+        - "Développement Full Stack"
+        - "Électronique & Systèmes Embarqués"
+        - "Réseaux, Télécoms & Cybersécurité"
+        - "Coordination & Management de Projet"
+        - "Communication & Design UI/UX"
+        - "Autre profil"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contributions
+    attributes:
+      label: "Vos contributions passées au sein de la Communauté Farafina"
+      placeholder: "Listez vos participations : PRs, révision de code, animation Discord, aide aux membres, gestion de tâches Trello..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Vos motivations & Projets sur lesquels vous souhaitez vous investir"
+      placeholder: "Expliquez ce que vous souhaitez apporter au Lab et sur quel projet à fort impact vous comptez travailler..."
+    validations:
+      required: true

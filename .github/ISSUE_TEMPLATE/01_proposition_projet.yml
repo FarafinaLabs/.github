@@ -1,0 +1,54 @@
+name: "💡 Proposition de Projet (4 Critères Farafina)"
+description: "Soumettre une idée de projet technologique ou sociétal pour évaluation au sein de Farafina Lab."
+title: "[PROJET] : Nom du projet"
+labels: ["projet", "proposition", "evaluation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de proposer une initiative pour **Farafina Lab** !
+        Chaque projet est évalué selon nos 4 critères fondateurs.
+
+  - type: input
+    id: title
+    attributes:
+      label: "Nom du projet & Résumé rapide"
+      placeholder: "Ex: AgroMali — Application IoT & IA de suivi de l'humidité des sols"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "1. 🌍 Impact Local Réel"
+      description: "À quelle problématique concrète d'une communauté locale ce projet répond-il ?"
+      placeholder: "Expliquez le besoin local et qui seront les bénéficiaires sur le terrain..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: faisabilite
+    attributes:
+      label: "2. 🛠️ Faisabilité Technique"
+      description: "Quelles compétences et technologies sont nécessaires ? A-t-on les ressources dans le groupe ?"
+      placeholder: "Ex: React Native, Python/FastAPI, capteurs LoRa / ESP32..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: originalite
+    attributes:
+      label: "3. 💡 Originalité & Valeur Ajoutée"
+      description: "Pourquoi cette approche est-elle pertinente et innovante ?"
+      placeholder: "Expliquez la valeur ajoutée par rapport aux solutions existantes..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: engagement
+    attributes:
+      label: "4. 🔥 Engagement du Porteur"
+      description: "Quelle est votre disponibilité et votre rôle prévu dans le pilotage du projet ?"
+      placeholder: "Précisez votre rôle (Porteur, Dev Lead, Coordonnateur...) et votre temps disponible..."
+    validations:
+      required: true
