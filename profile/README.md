@@ -74,21 +74,12 @@ Chaque projet proposé au sein du collectif est évalué selon 4 critères objec
 
 ---
 
-## 🛠️ Stack Collaboration
+## 🔗 Intégration de la Triade d'Outils (GitHub + Discord + Trello)
 
-| Outil | Usage principal | Public cible |
-| :--- | :--- | :--- |
-| 💬 **Discord** | Communication instantanée, réunions vocales & annonces | Communauté & Lab |
-| 📋 **Trello** | Gestion des tâches, suivi Kanban & organisation des sprints | Équipes Projets |
-| 🐙 **GitHub** | Hébergement du code source, versionnement & documentation | Développeurs & Contributeurs |
-
----
-
-## ⛔ Perimètre & Idéologie (Ce que nous ne sommes pas)
-
-- ❌ **Pas d'affiliation externe** : Collectif indépendant et libre.
-- ❌ **Pas de secteurs figés** : Agiles et ouverts aux opportunités technologiques (IA, Sécurité, Embarqué...).
-- ❌ **Pas de bureaucratie lourde** : Esprit d'innovation agile mû par une idéologie commune.
+- 📘 [Guide d'Intégration & d'Automatisation de l'Écosystème](./INTEGRATION_ECOSYSTEME.md)
+- 💬 [Guide d'Architecture & des Salons du Serveur Discord](./DISCORD_ARCHITECTURE.md)
+- 📋 [Modèle de Tableau Kanban Trello de Projet](./TRELLO_TEMPLATE_PROJETS.md)
+- 🌐 [Web App Interactive d'Onboarding](https://github.com/FarafinaLabs/farafina-lab-onboarding)
 
 ---
 
@@ -97,7 +88,7 @@ Chaque projet proposé au sein du collectif est évalué selon 4 critères objec
 - 📄 Lire notre [Charte & Vision Stratégique Complète](./CHARTE_ET_VISION.md)
 - 🤝 Consulter le [Guide de Contribution](./CONTRIBUTING.md)
 - 💡 Proposer une idée de projet via une [Issue de Proposition](https://github.com/FarafinaLabs/.github/issues/new?template=01_proposition_projet.md)
-- 🌟 Poser sa candidature au Lab via une [Issue Candidature](https://github.com/FarafinaLabs/.github/issues/new?template=02_candidature_lab.md)
+- 🌟 Poser sa candidature au Lab via une [Issue Candidature](https://github.com/FarafinaLabs/.github/issues/new?template=02_candidature_lab.yml)
 
 ---
 *Farafina Lab — Conçu avec passion et conviction par la jeunesse malienne.*
